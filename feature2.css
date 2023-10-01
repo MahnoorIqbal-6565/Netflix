@@ -1,0 +1,47 @@
+
+.display{
+   background-color: black;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+ 
+    }
+    .poster{
+     position: relative;
+    }
+    .poster img{
+     width: 320px;
+     height: 450px;
+     background: rgba(255,0,0,0.9);
+     position: relative;
+    }
+    .image-overlay{
+     position: absolute;
+     top: 0px;
+     left: 0;
+     width: 100%;
+     height: 100%;
+     opacity: 0.3;
+     z-index: 1;
+    }
+    #image-a{
+     background-color: #8E49BD;
+    }
+    #image-b{
+     background-color: #EB3839;
+    }
+    #image-c{
+     background-color: #EB8D05;
+    }
+    #image-d{
+     background-color: green;
+    }
+    .inside{
+     position: absolute;
+     top: 20%;
+     left: 10%;
+     color: rgb(255, 0, 0);
+     
+    }
+    
+   
